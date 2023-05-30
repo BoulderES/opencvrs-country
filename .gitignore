@@ -1,0 +1,31 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+package-lock.json
+
+# testing
+coverage
+
+# production
+build
+
+# misc
+.DS_Store
+.env
+*.log
+.secrets/*
+# But, keep the .gitignore so the folder is created
+!.secrets/.gitignore
+.idea
+data
+
+.vscode/launch.json
+.history
+
+src/features/employees/tmp/login-details.json
+src/tests/locations.json
+
+cypress/screenshots
+cypress/videos
+graphql.schema.json
